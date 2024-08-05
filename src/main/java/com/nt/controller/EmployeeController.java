@@ -19,4 +19,13 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(employee, HttpStatus.OK);
 
 	}
+
+	@GetMapping("/userReport")
+	public ResponseEntity<Employee> getUser() {
+
+		Employee employee = new Employee(1, "Raja", "USA", "9999");
+
+		return new ResponseEntity<Employee>(employee, HttpStatus.OK);
+
+	}
 }

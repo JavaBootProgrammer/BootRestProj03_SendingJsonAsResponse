@@ -11,11 +11,22 @@ import java.util.Set;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee {
+public class User {
 
     private int employeeId;
     private String employeeName;
     private String employeeAddress;
     private String employeePhone;
+
+    private String[] devices;
+
+    private List<String> ratings;
+
+    private Set<Long> discountsUsed;
+
+    private Map<String,Object> otherDetails;
+
+    private JobDetails jobDetails;
+
 
 }
