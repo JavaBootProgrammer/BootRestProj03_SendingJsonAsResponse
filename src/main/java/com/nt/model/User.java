@@ -22,9 +22,9 @@ public class User {
 
     private List<String> ratings;
 
-    private Set<Long> discountsUsed;
+    private Set discountsUsed;
 
-    private Map<String,Object> otherDetails;
+    private Map otherDetails;
 
     private JobDetails jobDetails;
 
